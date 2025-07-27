@@ -2,7 +2,7 @@
 #! If you cannot compile the project, configure the corresponding library files for the QT and VTK versions
 PROJECT(PHengLEI)
 set(AppName PHengLEI)
-CMAKE_MINIMUM_REQUIRED(VERSION 2.9.0)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5.0)
 
 # Add qt lib
 if(UNIX)

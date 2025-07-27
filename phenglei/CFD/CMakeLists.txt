@@ -12,7 +12,7 @@
 #! @file      CMakeLists.txt
 #! @brief     It defines the project.
 #! @author    Bell, Xu Qingxin, He Kun, He Xin.
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.5)
 
 #set working directory:
 set(EXEC_WORKING_DIR PHengLEIv3d0)

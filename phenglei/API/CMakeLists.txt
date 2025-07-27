@@ -12,7 +12,7 @@
 #! @file      CMakeLists.txt
 #! @brief     It defines the project.
 #! @author    Bell, Xu Qingxin, He Kun, He Xin.
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.5)
 
 #set cmake environment:
 set(CMAKE_USE_RELATIVE_PATHS ON)

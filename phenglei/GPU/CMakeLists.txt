@@ -12,7 +12,7 @@
 #! @file     CMakeLists.txt
 #! @brief    It defines the GPU module, using Cuda to accelerate computing.
 #! @author   Yong Zhang, Xi Zhang.
-cmake_minimum_required(VERSION 2.6)
+cmake_minimum_required(VERSION 3.5)
 
 #set working directory:
 set(EXEC_WORKING_DIR PHengLEIv3d0)
