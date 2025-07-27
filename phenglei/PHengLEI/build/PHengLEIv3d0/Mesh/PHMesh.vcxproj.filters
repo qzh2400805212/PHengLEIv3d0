@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\UnstructuredOversetConfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\OversetKDTree.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\DynamicGrid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_Deformation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_DeformationRBF.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_DeformationSPRING.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\ComputationalGrid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\InterfaceLinkStructure.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_CellTopo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_FaceTopo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_Refine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_Refine_Struct.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_Refine_Unstruct.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_RefineController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\Mesh\src\Mesh_ConstructInterfaceLink.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\UnstructuredOversetConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\OversetKDTree.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\DynamicGrid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_Deformation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_DeformationRBF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_DeformationSPRING.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\ComputationalGrid.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\InterfaceLinkStructure.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_CellTopo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_FaceTopo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_Refine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_Refine_Struct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_Refine_Unstruct.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_RefineController.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\Mesh\include\Mesh_ConstructInterfaceLink.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PHengLEI-master\phenglei\Mesh\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{A6725E69-CF55-36EC-A9F5-49448D0CCC29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{EBC370B9-7492-351B-8D4F-3049E0A08FBB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

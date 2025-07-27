@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\Solver\src\CFDSolver.cpp">
+      <Filter>Solver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\Solver\src\Controller.cpp">
+      <Filter>Solver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\Solver\src\Param_CFDSolver.cpp">
+      <Filter>Solver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\NSSolver.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\NSSolverStruct.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\NSSolverStructFD.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\NSSolverStructFV.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\NSSolverUnstruct.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\Param_NSSolver.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\Param_NSSolverUnstruct.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\src\Param_NSSolverStruct.cpp">
+      <Filter>NSSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\TurbSolver.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\TransitionSolver.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\TurbSolverStruct.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\TransitionSolverStruct.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\TurbSolverStructFD.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\TurbSolverUnstr.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\TransitionSolverUnstr.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Transition.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\LESSolver.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\LESSolverStruct.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\LESSolverUnstr.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Param_TurbSolver.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Param_TransitionSolver.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Param_TurbSolverStruct.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Param_TurbSolverUnstruct.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Param_LESSolver.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Param_LESSolverStruct.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\src\Param_LESSolverUnstruct.cpp">
+      <Filter>TurbSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOBasisFunction.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOBoundary.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOGaussJacobiQuadrature.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOGeometryDtructure.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOInviscidFlux.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOShapeFunction.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOSimulation.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOSolverUnstruct.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOSolverUnstructParam.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\src\HOStandardElement.cpp">
+      <Filter>HOSolverUnstruct\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\MomEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\PPEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomScalarEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomEnergyEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomKETurbEpsilonEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomKETurbKEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomSATurbKEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomSpeciesEqCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\IncomUnstructSolver.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\hypreCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\unapCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\yhamgCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\LinearEquationSystemCalculator.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\src\Param_INCompSolverUnstruct.cpp">
+      <Filter>IncomSolver\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\Solver\include\CFDSolver.h">
+      <Filter>Solver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\Solver\include\Controller.h">
+      <Filter>Solver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\Solver\include\Param_CFDSolver.h">
+      <Filter>Solver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\NSSolver.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\NSSolverStruct.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\NSSolverStructFD.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\NSSolverStructFV.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\NSSolverUnstruct.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\MultiGridOperation.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\Param_NSSolver.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\Param_NSSolverUnstruct.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\NSSolver\include\Param_NSSolverStruct.h">
+      <Filter>NSSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\TurbSolver.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\TurbSolverStruct.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\TransitionSolver.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\TransitionSolverStruct.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\TurbSolverUnstr.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\TransitionSolverUnstr.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Transition.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\LESSolver.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\LESSolverStruct.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\LESSolverUnstr.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\TurbSolverStructFD.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Param_TurbSolver.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Param_TransitionSolver.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Param_TurbSolverStruct.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Param_TurbSolverUnstruct.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Param_LESSolver.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Param_LESSolverStruct.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\TurbSolver\include\Param_LESSolverUnstruct.h">
+      <Filter>TurbSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOBasisFunction.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOBoundary.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HODefine.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOGaussJacobiQuadrature.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOGeometryStructure.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOInviscidFlux.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOShapeFunction.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOSimulation.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOSolverUnstruct.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOSolverUnstructParam.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\HOSolverUnstruct\include\HOStandardElement.h">
+      <Filter>HOSolverUnstruct\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\MomEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\PPEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomScalarEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomEnergyEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomKETurbKEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomSATurbKEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomKETurbEpsilonEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomSpeciesEqCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\IncomUnstructSolver.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\hypreCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\unapCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\yhamgCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\LinearEquationSystemCalculator.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PHengLEI-master\phenglei\CFD\IncomSolver\include\Param_INCompSolverUnstruct.h">
+      <Filter>IncomSolver\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PHengLEI-master\phenglei\CFD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HOSolverUnstruct">
+      <UniqueIdentifier>{7700CED7-339A-3103-80E0-3A0E70ABB1E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HOSolverUnstruct\include">
+      <UniqueIdentifier>{8EC08F8B-C241-3992-8AB4-3765F9D62795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HOSolverUnstruct\src">
+      <UniqueIdentifier>{B6B8F413-7CDA-3AF9-BBCC-840A3410FB7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IncomSolver">
+      <UniqueIdentifier>{EC0F6FBD-FD9E-3F58-A048-A012E74DBAB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IncomSolver\include">
+      <UniqueIdentifier>{0000FA6F-B286-3FA9-AC13-40DAB18DF579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IncomSolver\src">
+      <UniqueIdentifier>{CB7EE8C1-1E0E-3F55-8F52-DDF272206798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NSSolver">
+      <UniqueIdentifier>{A498EF5E-8ADA-37F2-9975-F6C4899AB24C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NSSolver\include">
+      <UniqueIdentifier>{6B6F5C3B-0A28-3E4E-B917-292616685DFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NSSolver\src">
+      <UniqueIdentifier>{EE639FAB-4005-3557-9965-14721B388F99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solver">
+      <UniqueIdentifier>{537876DE-A10B-300F-93A7-EE217FE08228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solver\include">
+      <UniqueIdentifier>{6F037C21-4201-35E7-8BBD-973CB9D433FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solver\src">
+      <UniqueIdentifier>{29934AD8-954C-3A54-9B4A-54E08E95313F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TurbSolver">
+      <UniqueIdentifier>{A2850071-D972-3F09-82B3-66FDAF3B1C6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TurbSolver\include">
+      <UniqueIdentifier>{418915FC-8FE5-304E-891E-1C1DD0457109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TurbSolver\src">
+      <UniqueIdentifier>{EB43DEBD-C0D1-3B62-934D-8A09682E2DAE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

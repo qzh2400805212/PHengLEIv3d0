@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{40DFCCD4-EFE0-3A01-BD1F-5CD881EF3E30}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PHAPI</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\PHengLEI-master\phenglei\API\bin\Windows-x64\Release\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PHAPI.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PHAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\PHengLEI-master\phenglei\API\bin\Windows-x64\Release\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PHAPI.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PHAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\PHengLEI-master\phenglei\API\bin\Windows-x64\Release\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PHAPI.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PHAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\PHengLEI-master\phenglei\API\bin\Windows-x64\Release\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PHAPI.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PHAPI</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PH_DOUBLE_PREC;USE_SMARTARRAY;USE_INCOMSOLVER;USE_HypreLib;USE_TecplotLib;USE_WINDOWS_X64;_SCL_SECURE_NO_WARNINGS;USE_VS2019;PH_PARALLEL;PH_CGNS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft SDKs\MPI\Include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\DataStruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Data\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Math\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\FYMPI\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Toolkit\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\IO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Geometry\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Physics\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PreProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\Common\include;D:\PHengLEI-master\phenglei\PHengLEI\..\HyFLOW\include;D:\PHengLEI-master\phenglei\PHengLEI\..\API\MultiSpecies\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\HDF5\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\Gmsh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\parmetis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\TECIO\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\metis\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\cgns\windows\vs19\win-x64\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\mgrid\include;D:\PHengLEI-master\phenglei\PHengLEI\..\PHengLEI\3rdparty\hypre\include;D:\PHengLEI-master\phenglei\PHengLEI\..\Mesh\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\NSSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\Solver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\TurbSolver\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\PostProcess\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\HOSolverUnstruct\include;D:\PHengLEI-master\phenglei\PHengLEI\..\CFD\IncomSolver\include;D:\PHengLEI-master\phenglei\API\DataStruct\include;D:\PHengLEI-master\phenglei\API\Data\include;D:\PHengLEI-master\phenglei\API\Math\include;D:\PHengLEI-master\phenglei\API\FYMPI\include;D:\PHengLEI-master\phenglei\API\Toolkit\include;D:\PHengLEI-master\phenglei\API\IO\include;D:\PHengLEI-master\phenglei\API\Geometry\include;D:\PHengLEI-master\phenglei\API\Physics\include;D:\PHengLEI-master\phenglei\API\PreProcess\include;D:\PHengLEI-master\phenglei\API\PostProcess\include;D:\PHengLEI-master\phenglei\API\Common\include;D:\PHengLEI-master\phenglei\API\MultiSpecies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PHengLEI-master\phenglei\API\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/PHengLEI-master/phenglei/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PHengLEI-master/phenglei/PHengLEI -BD:/PHengLEI-master/phenglei/PHengLEI/build --check-stamp-file D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\PHengLEI-master\phenglei\PHengLEI\PHMacro.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\PHengLEI-master\phenglei\PHengLEI\build\PHengLEIv3d0\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/PHengLEI-master/phenglei/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PHengLEI-master/phenglei/PHengLEI -BD:/PHengLEI-master/phenglei/PHengLEI/build --check-stamp-file D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\PHengLEI-master\phenglei\PHengLEI\PHMacro.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\PHengLEI-master\phenglei\PHengLEI\build\PHengLEIv3d0\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/PHengLEI-master/phenglei/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PHengLEI-master/phenglei/PHengLEI -BD:/PHengLEI-master/phenglei/PHengLEI/build --check-stamp-file D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\PHengLEI-master\phenglei\PHengLEI\PHMacro.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\PHengLEI-master\phenglei\PHengLEI\build\PHengLEIv3d0\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/PHengLEI-master/phenglei/API/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/PHengLEI-master/phenglei/PHengLEI -BD:/PHengLEI-master/phenglei/PHengLEI/build --check-stamp-file D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\PHengLEI-master\phenglei\PHengLEI\PHMacro.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\PHengLEI-master\phenglei\PHengLEI\build\PHengLEIv3d0\API\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\DataStruct\src\PHStorage.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\DataStruct\src\DataStruct_BinaryTree.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\DataStruct\src\DataStruct_KDTree.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\DataStruct\src\DataContainer.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Data\src\Data_SafeData.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Data\src\Data_Util.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Data\src\Data_IndexData.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Data\src\Data_Param.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Data\src\Data_Field.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Data\src\Data_ParamFieldSuite.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Data\src\GlobalDataBase.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Math\src\Math_BasisFunction.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\FYMPI\src\PHMpi.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\FYMPI\src\Parallel.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\FYMPI\src\ActionKey.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Toolkit\src\TK_Log.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Toolkit\src\TK_Exit.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Toolkit\src\TK_Parse.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Toolkit\src\TK_Time.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Toolkit\src\TK_Warning.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\IO\src\PHIO.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\IO\src\IO_VirtualFile.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\IO\src\IO_FileReader.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\IO\src\IO_HDF5File.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\IO\src\IO_FileName.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_Grid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_GridManager.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\GridType.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_SimpleGrid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_StructGrid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_UnstructGrid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\StructGridFD.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_CellMetrics_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_CellMetrics_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_CellTopo_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_DynamicGridMetrics_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_DynamicGridMetrics_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_FaceMetrics_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_FaceMetrics_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_FaceTopo_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_LineTopo_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_GridIndex.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_LSQWeight_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_MultiGridInfo_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_NodeTopo_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_NodeTopo_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_OversetGridTopo_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_SimpleBC.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_StructBC.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_UnstructBC.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_OversetGrid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\OversetGridFactory.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\OversetInformation.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\MeshAgglomeration.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geometry.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_Interface.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_Interpoint.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\MultigridFactory.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\GRHash.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\OverLappingGrid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\GeometryUnit.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_PointFactory.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_Element.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_Sample.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\GeomProxy.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\FieldProxy.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\GeneralFieldProxy.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\FaceProxy.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_SimpleVC.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_StructMerge.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Geometry\src\Geo_UnstructMerge.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Zone.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Force.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\AleForceManager.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\AleModel.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\AleManager.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\MovingMesh.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\DeformingSolverManager.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\SixDofManager.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\SixDOF.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Residual.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\GradientOperation.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\AerodynamicsBasicRelations.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Limiter.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Task.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Task_Simple.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Task_ServerUpdateInterface.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Task_ServerUpdateInterpoint.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Task_WriteBinaryTecplot.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Region.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\IO_GridReader.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\GridGroup.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\PerfectGas.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Solver.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Flux_Inviscid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Flux_RoeEntropyCorrection.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Jacobian.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Gradient.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\Gas.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\MatrixLUSGS.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Physics\src\IncomGas.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_Block_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_UnstructGridPartition.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_WalldistCompute.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_GridConversion.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_FieldViewToPHengLEI_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_CGNSToPHengLEI_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_CGNSConversion_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_CGNSToPlot3D_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_CGNSToPHengLEI_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_Plot3DToPHengLEI_Struct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_FluentToPHengLEI_Unstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_HDF5File.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_GridMirror.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_StructGridPartition.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_StructToUnstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_GridTranslator.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_GridCombine.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_GridBase.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\MixGrid.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PreProcess\src\Pre_Reorder.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_Visual.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_WriteVisualFile.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_WriteTecplot.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_WriteEnsight.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_ForceMoment.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\PostProcess.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\IO_FlowReader.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\ForceProcessStruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\ForceProcessUnstruct.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\PostProcessData.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_Probes.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_ProbesWrite.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\PostProcess\src\Post_WriteParaview.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\Common\src\Glb_Dimension.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\MultiSpecies\src\ChemModel.cpp" />
+    <ClCompile Include="D:\PHengLEI-master\phenglei\API\MultiSpecies\src\MixedGas.cpp" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_Array.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_AdtNode.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_AdtTree.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_KDNode.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_KDTree.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_BinaryTree.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_Sort.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataStruct_Range.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHET.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHETBase.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHExpr.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHExprWrap.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHFastArrayIterator.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHMemblock.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHOps.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHProduct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHSimpleArray.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHStorage.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHSlice.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\Pointer.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHVector3.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHMatrix.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\TypeDefine.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\HyList.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\DataContainer.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\DataStruct\include\PHHeapSort.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Data\include\Data_SafeData.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Data\include\Data_Util.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Data\include\Data_IndexData.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Data\include\Data_Param.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Data\include\Data_Field.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Data\include\Data_ParamFieldSuite.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Data\include\GlobalDataBase.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Math\include\Math_BasisFunction.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Math\include\Math_Limiter.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\FYMPI\include\PHMpi.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\FYMPI\include\Parallel.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\FYMPI\include\ActionKey.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Toolkit\include\TK_Log.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Toolkit\include\TK_Exit.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Toolkit\include\TK_Parse.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Toolkit\include\TK_Time.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Toolkit\include\TK_Warning.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\IO\include\PHIO.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\IO\include\IO_VirtualFile.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\IO\include\IO_FileReader.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\IO\include\IO_HDF5File.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\IO\include\IO_FileName.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_Grid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_GridManager.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\GridType.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_Interface.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_Interpoint.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_SimpleGrid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_StructGrid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_UnstructGrid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\MultigridFactory.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_CellMetrics_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_CellMetrics_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_CellTopo_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_DynamicGridMetrics_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_DynamicGridMetrics_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_FaceMetrics_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_FaceMetrics_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_FaceTopo_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_LineTopo_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_GridIndex.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_LSQWeight_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_MultiGridInfo_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_NodeTopo_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_NodeTopo_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_OversetGridTopo_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_SimpleBC.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_StructBC.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_UnstructBC.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_OversetGrid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\OversetGridFactory.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\OversetInformation.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\MeshAgglomeration.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geometry.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\LinkStruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_Point.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_Face.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\GRHash.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\OverLappingGrid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\GeometryUnit.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_PointFactory.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_Element.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_Sample.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\GeomProxy.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\FieldProxy.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\GeneralFieldProxy.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\FaceProxy.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_SimpleVC.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_StructMerge.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Geometry\include\Geo_UnstructMerge.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\AleModel.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\AleManager.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\AleForceManager.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\MovingMesh.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\DeformingSolverManager.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\SixDofManager.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\PHSuperMatrix.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\SixDOF.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Force.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Zone.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Residual.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\GradientOperation.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\AerodynamicsBasicRelations.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Limiter.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Task.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Task_Simple.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Task_ServerUpdateInterface.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Task_ServerUpdateInterpoint.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Task_WriteBinaryTecplot.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Region.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\IO_GridReader.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\GridGroup.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\PerfectGas.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Gas.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Solver.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Flux_Inviscid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Flux_RoeEntropyCorrection.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Jacobian.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\Gradient.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\MatrixLUSGS.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Physics\include\IncomGas.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_Block_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_UnstructGridPartition.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_WalldistCompute.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_GridConversion.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_FieldViewToPHengLEI_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_CGNSToPHengLEI_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_CGNSConversion_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_CGNSToPlot3D_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_CGNSToPHengLEI_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_Plot3DToPHengLEI_Struct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_FluentToPHengLEI_Unstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_HDF5File.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_GridMirror.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_StructGridPartition.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_StructToUnstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_GridTranslator.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_GridCombine.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_GridBase.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\MixGrid.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PreProcess\include\Pre_Reorder.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_Visual.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_WriteVisualFile.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_WriteTecplot.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_WriteEnsight.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_ForceMoment.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\PostProcess.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\IO_FlowReader.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\ForceProcessStruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\ForceProcessUnstruct.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\PostProcessData.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_Probes.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_ProbesWrite.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\PostProcess\include\Post_WriteParaview.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Common\include\AMRDef.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Common\include\Constants.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Common\include\PHHeader.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Common\include\Precision.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Common\include\Glb_Dimension.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\Common\include\LIB_Macro.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\MultiSpecies\include\ChemModel.h" />
+    <ClInclude Include="D:\PHengLEI-master\phenglei\API\MultiSpecies\include\MixedGas.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\PHengLEI-master\phenglei\PHengLEI\build\ZERO_CHECK.vcxproj">
+      <Project>{A01A41B8-FBF6-32C6-BC48-DA7E37F1A08C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
