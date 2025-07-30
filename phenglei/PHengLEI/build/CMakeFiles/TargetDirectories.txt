@@ -1,6 +1,0 @@
-D:/PHengLEI-master/phenglei/PHengLEI/build/CMakeFiles/ALL_BUILD.dir
-D:/PHengLEI-master/phenglei/PHengLEI/build/CMakeFiles/ZERO_CHECK.dir
-D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/Mesh/CMakeFiles/PHMesh.dir
-D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/API/CMakeFiles/PHAPI.dir
-D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/CFD/CMakeFiles/PHCFD.dir
-D:/PHengLEI-master/phenglei/PHengLEI/build/PHengLEIv3d0/CMakeFiles/PHengLEIv3d0.dir
